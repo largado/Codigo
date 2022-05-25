@@ -1,0 +1,21 @@
+package avena;
+
+public class Codigo {
+    int codigo = 0;
+    String mensagem = "erro";
+
+    void geramensagem(String codigoderetorno){
+        if (codigo == 302)
+            mensagem = "Moved Temporarily";
+        if (codigo == 200)
+            mensagem = "OK";
+        if (codigo == 404)
+            mensagem = "Not Found";
+        }
+
+    }
+
+
+
+
+
